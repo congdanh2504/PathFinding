@@ -105,7 +105,6 @@ function App() {
                 onMouseEnter={() => onMouseEnterHandle(i, j, v)}
                 onMouseUp={onMouseUpHandle}>
                <input id={`a${i}a${j}`}
-                disabled={true}
                 style={{backgroundColor: colors[v]}}/>
               </span>
             })}
